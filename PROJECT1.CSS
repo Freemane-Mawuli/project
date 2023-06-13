@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 2rem;
+    background: url(Bora\ Bora.jpg);
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: rgb(202, 48, 48);
+}
+
+li:hover{
+    color: rgb(2, 49, 137);
+    font-size: 1.5rem;
+}

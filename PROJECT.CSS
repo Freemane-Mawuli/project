@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: url(./Instagram.jpg);
+  color: white;
+  cursor: pointer;
+  height: 5rem;
+  padding: 1rem;
+  position: sticky;
+  top: 0px;
+}
+
+.content {
+  display: flex;
+  /* transition-property: none; */
+  gap: 3rem;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+li :nth-child(1):hover {
+  text-decoration: underline;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+/* ////////////nav ends//////////// */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  background-color: black;
+}
+
+.content2 {
+  height: 40rem;
+  padding: 10rem;
+  color: white;
+}
+
+.h-one{
+  font-size: 50px;
+  width: 310px;
+  margin-bottom: 1rem;
+}
+
+.h-para{
+  margin-bottom: 1rem;
+}
+
+
+/* .figure{
+  width: 50%;
+ }
+ image{
+  width: 50px;
+ } */
+
+.button-one {
+  /* border-radius: 27px; */
+  background: url(Instagram.jpg);
+  height: 2rem;
+  width: 10rem;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.button-one:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-family: 'roboto', sans-serif;
+
+
+}
+
+/* //////////head ends here//////////// */
+
+.main-head {
+  text-align: center;
+  padding: 24px;
+
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.watch {}
+
+.four-box {
+  /* border: #45a049 2px solid; */
+  height: 600px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.box {
+  width: 45%;
+  height: 250px;
+  /* border: 1px solid rgb(67, 67, 185); */
+  background-color: gray;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 2px 2px black;
+}
+
+.user {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.icon {
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.para {
+  color: white;
+}
+
+.high {
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.main {
+  background-color: black;
+}
+
+#About {
+  background-color: black;
+}
+
+.about-content {
+  /* border: yellowgreen 3px solid; */
+  height: 600px;
+  width: 50%;
+  padding: 40px;
+
+
+}
+
+.about-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-head {
+  font-size: 50px;
+  width: 650px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.about-para {
+  width: 520px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+
+}
+
+.button-two {
+  color: white;
+  background: url(Instagram.jpg);
+  width: 10rem;
+  height: 2rem;
+  margin-top: 12px;
+  cursor: pointer;
+
+}
+
+.second-para {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.main-head {
+  font-size: 50px;
+  color: white;
+
+}
+
+/* ////////////////////////////////////// */
+
+
+
+
+.main-features {
+  text-align: center;
+  /* margin-bottom: 2rem; */
+  background-color: black;
+}
+
+.features-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+
+}
+
+.boxed {
+
+  width: 400PX;
+  height: 250PX;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 2rem;
+  background-color: ;
+  border-radius: 20px;
+  box-shadow: 2px 2px yellowgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxed:hover {
+  /* background-color: rgb(47, 78, 67); */
+  background: url(Instagram.jpg);
+}
+
+
+
+.fts {
+  padding: 24px;
+  color: white;
+  font-size: 50px;
+}
+
+.icons {
+  color: black;
+}
+
+.icon-box {
+  /* border: 2px solid red; */
+  height: 10rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+
+.hone {
+  margin-bottom: 2rem;
+  /* font-size: 50px; */
+  
+}
+
+
+.product {
+  background-color: black;
+  border: #45a049 solid 2px;
+  height: 700px;
+  padding: 24px;
+}
+
+.product-child-box {
+  border: #45a049 2px solid;
+  width: 40%;
+  height: 250px;
+  display: flex;
+}
+
+
+.Product-row {
+  width: 100%;
+  height: 500px;
+  /* border: red 2px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.iphone {
+  width: 250px;
+  margin-top: 2rem;
+
+}
+
+.content-right {
+  width: 80%;
+  /* border: 2px solid red; */
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 24px;
+}
+
+.p-button {
+  width: 10rem;
+  height: 2rem;
+  font-size: large;
+  background: url(Instagram.jpg);
+   
+}
+
+.smart-product {
+  margin-bottom: 10px;
+}
+
+.change {
+  font-size: 30px;
+}
+
+.p-head {
+  text-align: center;
+  color: white;
+  margin-bottom: 24px;
+  font-size: 40px;
+  width: 550px;
+  margin-left: 25rem;
+}
