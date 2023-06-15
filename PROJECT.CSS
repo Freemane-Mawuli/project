@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
 .container {
   align-items: center;
   display: flex;
@@ -12,7 +15,7 @@
   color: white;
   cursor: pointer;
   height: 5rem;
-  padding: 1rem;
+  padding: 3rem;
   position: sticky;
   top: 0px;
 }
@@ -29,7 +32,8 @@ ul {
 }
 
 a {
-  color: white;
+  /* color: white; */
+  color: black;
 }
 
 li :nth-child(1):hover {
@@ -49,21 +53,23 @@ header {
   justify-content: space-between;
   padding: 5rem;
   background-color: black;
+  
 }
 
 .content2 {
   height: 40rem;
   padding: 10rem;
   color: white;
+ 
 }
 
-.h-one{
+.h-one {
   font-size: 50px;
   width: 310px;
   margin-bottom: 1rem;
 }
 
-.h-para{
+.h-para {
   margin-bottom: 1rem;
 }
 
@@ -84,6 +90,7 @@ header {
   border: none;
   cursor: pointer;
   color: white;
+  
   text-decoration: none;
 
 
@@ -104,9 +111,13 @@ p {
 .main-head {
   text-align: center;
   padding: 24px;
+  margin-bottom: 6rem;
 
 }
 
+.aboutp{
+  margin-top: 6rem;
+}
 .boxes {
   display: flex;
   justify-content: space-around;
@@ -129,7 +140,7 @@ p {
   width: 45%;
   height: 250px;
   /* border: 1px solid rgb(67, 67, 185); */
-  background-color: gray;
+  background-color: rgb(35, 34, 34);
   border-radius: 16px;
   padding: 24px;
   box-shadow: 2px 2px black;
@@ -140,6 +151,7 @@ p {
   display: flex;
   gap: 10px;
   color: white;
+  
 }
 
 .icon {
@@ -149,6 +161,7 @@ p {
 
 .para {
   color: white;
+  
 }
 
 .high {
@@ -184,6 +197,7 @@ p {
   width: 650px;
   margin-bottom: 16px;
   color: white;
+  
 }
 
 .about-para {
@@ -191,7 +205,6 @@ p {
   margin-bottom: 20px;
   font-size: 20px;
   color: white;
-
 }
 
 .button-two {
@@ -214,6 +227,7 @@ p {
 .main-head {
   font-size: 50px;
   color: white;
+  
 
 }
 
@@ -226,6 +240,7 @@ p {
   text-align: center;
   /* margin-bottom: 2rem; */
   background-color: black;
+  
 }
 
 .features-content {
@@ -234,6 +249,7 @@ p {
   justify-content: center;
   gap: 1rem;
   color: white;
+  
 
 }
 
@@ -262,7 +278,9 @@ p {
 .fts {
   padding: 24px;
   color: white;
+  /* color: black; */
   font-size: 50px;
+  margin-bottom: 5rem;
 }
 
 .icons {
@@ -285,19 +303,20 @@ p {
 .hone {
   margin-bottom: 2rem;
   /* font-size: 50px; */
-  
+
 }
 
 
 .product {
   background-color: black;
-  border: #45a049 solid 2px;
+  
+  /* border: #45a049 solid 2px; */
   height: 700px;
   padding: 24px;
 }
 
 .product-child-box {
-  border: #45a049 2px solid;
+  /* border: #45a049 2px solid; */
   width: 40%;
   height: 250px;
   display: flex;
@@ -307,7 +326,6 @@ p {
 .Product-row {
   width: 100%;
   height: 500px;
-  /* border: red 2px solid; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -316,8 +334,8 @@ p {
 
 .iphone {
   width: 250px;
-  margin-top: 2rem;
-
+  margin-top:2rem;
+  
 }
 
 .content-right {
@@ -326,6 +344,7 @@ p {
   text-align: center;
   justify-content: center;
   color: white;
+  
   padding: 24px;
 }
 
@@ -334,7 +353,7 @@ p {
   height: 2rem;
   font-size: large;
   background: url(Instagram.jpg);
-   
+
 }
 
 .smart-product {
@@ -348,8 +367,85 @@ p {
 .p-head {
   text-align: center;
   color: white;
-  margin-bottom: 24px;
+  margin-top: 6rem;
+  /* margin-bottom: 4rem; */
   font-size: 40px;
   width: 550px;
   margin-left: 25rem;
+}
+
+
+
+/* //////////////////////////////////////// */
+
+
+
+video {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+}
+
+
+.footernav{
+  margin: 30px 0;
+}
+
+.footercontainer{
+  width: 100%;
+  height: 100%;
+  padding: 70px 30px 20px;
+  background-color: rgb(14, 12, 12);
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+ /* margin-top: 8rem; */
+  color: black;
+}
+
+.socialicons a:hover{
+  background-color:rgb(12, 228, 228);
+ 
+}
+
+.icons-one{
+ /* color: white; */
+ transition: 0.5s;
+}
+
+.footernav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.cap{
+  color: rgb(250, 250, 250);
+  margin: 20px;
+}
+
+.footerbottom{
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  /* margin-top: 9.5rem; */
+  color: white;
+}
+
+.Add{
+  color: white;
+  line-height: 3rem;
+}
+
+.Follow{
+  color: white;
+  text-align: center;
+  margin-top: 7rem;
 }
